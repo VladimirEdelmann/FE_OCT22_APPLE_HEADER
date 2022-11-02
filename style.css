@@ -18,16 +18,11 @@ body {
   box-sizing: border-box;
 }
 
-.test {
-  width: 100px;
-  padding: 20px;
-  border: 10px solid black;
-}
-
 .header {
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: saturate(180%) blur(20px);
   font-size: 0;
+  text-align: center;
 }
 
 .nav_item {
@@ -49,6 +44,28 @@ body {
   color: silver;
 }
 
+.main {
+  padding: 40px;
+  background-color: #fff;
+}
 
+.main-text {
+  margin-bottom: 10px;
+}
 
+.footer {
+  position: sticky;
+  bottom: 0;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  line-height: 500px;
+  text-align: center;
+  z-index: -1;
+}
+
+.promo {
+  height: 300px;
+  background-size: cover;
+  background-image: url("https://mate-academy.github.io/fe-program/assets/MA_top.jpg");
+}
 
